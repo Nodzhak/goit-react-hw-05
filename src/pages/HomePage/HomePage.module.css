@@ -1,0 +1,14 @@
+.section_home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container_home {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }

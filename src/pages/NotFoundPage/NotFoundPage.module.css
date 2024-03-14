@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .info {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text_info {
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .link_home {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .link_home:hover {
+    background-color: #0056b3;
+  }
+  
+  .icon {
+    vertical-align: middle;
+    margin-left: 10px;
+  }

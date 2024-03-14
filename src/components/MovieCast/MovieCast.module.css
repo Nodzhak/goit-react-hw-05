@@ -1,0 +1,40 @@
+  .section_casts {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .item {
+    border-radius: 5px;
+    width: 260px;
+    flex-direction: column;
+    transition: 250ms;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img {
+    margin-bottom: 10px;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .text {
+    font-size: 18px;
+  }
