@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import css from "./NotFoundPage.module.css";
-import { GrHome } from "react-icons/gr";
 import { PiSmileySadLight } from "react-icons/pi";
 
 const NotFoundPage = () => {
@@ -15,7 +14,7 @@ const NotFoundPage = () => {
         4<PiSmileySadLight />4
       </p>
       <Link to={`/`} className={css.link_home}>
-        Go HomePage <GrHome className={css.icon} />
+        Go HomePage 
       </Link>
     </div>
   );
