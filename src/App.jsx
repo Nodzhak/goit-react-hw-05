@@ -12,7 +12,7 @@ const MovieCast = lazy(() => import("./components/MovieCast/MovieCast"));
 const MovieReviews = lazy(() =>
   import("./components/MovieReviews/MovieReviews")
 );
-const NotFoundPage = lazy(() => import("./pages/NotFoundPage/NotFoundPage"));
+const NotFoundPage = lazy(() => import("./pages/NotFoundPage/NotFoundPage.jsx"));
 
 const App = () => {
   return (
@@ -25,10 +25,8 @@ const App = () => {
             <Route path="cast" element={<MovieCast />} />
             <Route path="reviews" element={<MovieReviews />} />
           </Route>
-
-          <Route path="*" element={<NotFoundPage />} />
         </Route>
-        
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <ToastContainer autoClose={5000} />
     </div>
